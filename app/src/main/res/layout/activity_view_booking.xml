@@ -179,7 +179,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:paddingLeft="15dp"
-                                    android:text="(416) 000 0000"
+                                    android:text="(+961) 03 765 273"
                                     android:textColor="@color/colorPrimary" />
 
                             </LinearLayout>
@@ -351,7 +351,7 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/roboto"
                                     android:paddingLeft="15dp"
-                                    android:text="03:00PM\t\tWeb, Dec 17"
+                                    android:text="03:00PM\t\tWeb, Dec 14"
                                     android:textColor="@color/colorPrimary" />
                             </LinearLayout>
                         </LinearLayout>
@@ -486,7 +486,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
                                         android:fontFamily="@font/roboto_bold"
-                                        android:text="$359"
+                                        android:text="$450"
                                         android:textColor="@color/colorSecondary"
                                         android:textSize="24sp" />
                                 </LinearLayout>

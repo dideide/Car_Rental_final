@@ -22,7 +22,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="814dp">
 
 
                 <TextView
@@ -48,15 +48,6 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageView
-                    android:id="@+id/vehicleImage"
-                    android:layout_width="0dp"
-                    android:layout_height="220dp"
-                    android:layout_marginTop="24dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/rental_time"
@@ -67,7 +58,8 @@
                     app:cardBackgroundColor="@color/colorPrimary"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/vehicleImage">
+                    tools:layout_editor_absoluteY="245dp"
+                    tools:ignore="MissingConstraints">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -176,7 +168,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:paddingLeft="15dp"
-                                    android:text="(416) 000 0000"
+                                    android:text="(+961) 03 765 273"
                                     android:textColor="@color/colorPrimary" />
 
                             </LinearLayout>
@@ -348,7 +340,7 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/roboto"
                                     android:paddingLeft="15dp"
-                                    android:text="03:00PM\t\tWeb, Dec 17"
+                                    android:text="03:00PM\t\tWeb, Dec 14"
                                     android:textColor="@color/colorPrimary" />
                             </LinearLayout>
                         </LinearLayout>
@@ -398,12 +390,6 @@
                                 android:gravity="center_vertical"
                                 android:orientation="horizontal">
 
-                                <Button
-                                    android:id="@+id/greenDot"
-                                    android:layout_width="10dp"
-                                    android:layout_height="10dp"
-                                    android:background="@drawable/round_button"
-                                    android:backgroundTint="#64DD17" />
 
                                 <TextView
                                     android:id="@+id/insurance"
@@ -490,7 +476,7 @@
 
                                 <Button
                                     android:id="@+id/payNow"
-                                    android:layout_width="200dp"
+                                    android:layout_width="305dp"
                                     android:layout_height="40dp"
                                     android:layout_weight="1"
                                     android:background="@drawable/round_button"
@@ -529,19 +515,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <com.github.ybq.android.spinkit.SpinKitView
-        android:id="@+id/paidLoading"
-        style="@style/SpinKitView.Large.Wave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="#24F577"
-        android:padding="15dp"
-        app:SpinKit_Color="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

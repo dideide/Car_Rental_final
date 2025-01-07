@@ -109,7 +109,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto"
                     android:paddingLeft="15dp"
-                    android:text="07:33 p.m January, 1 2020"
+                    android:text="07:33 p.m January, 1 2025"
                     android:textColor="@color/colorPrimary" />
             </LinearLayout>
 
@@ -135,7 +135,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto"
                     android:paddingLeft="15dp"
-                    android:text="07:33 p.m January, 10 2020"
+                    android:text="07:33 p.m January, 10 2025"
                     android:textColor="@color/colorPrimary" />
             </LinearLayout>
 
